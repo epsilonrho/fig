@@ -20,13 +20,31 @@
 
 	<br>
 	<hr>
-	<img src = "https://www.organicfacts.net/wp-content/uploads/apricot.jpg" alt="fresh apricot" width="700" height="525">
+	<!-- <img src="images/apricot.jpg"> -->
+
+<img 
+	srcset="images/apricot-320w.jpg 320w,
+            images/apricot-480w.jpg 480w,
+            images/apricot-800w.jpg 800w "
+     sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+	src="images/apricot.jpg"
+
+     >
+
+<!--
+
+<img src="images/apricot.jpg"
+	
+-->
+
 <hr>
 <br>
 
 <button>A button</button><br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z2SCXDw0pZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Z2SCXDw0pZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 
 <ul> <h2> some fruits </h2>
 	<li>apple
